@@ -10,7 +10,10 @@ namespace VerzioKezelesHF
     {
         static void Main(string[] args)
         {
-            double[] szamok = new double[10];
+            int bekerLenght;
+            Console.Write("Mennyi szamot akar megadni? ");
+            bekerLenght = int.Parse(Console.ReadLine());
+            double[] szamok = new double[bekerLenght];
             
             for (int i = 0; i < szamok.Length; i++)
             {
