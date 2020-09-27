@@ -21,7 +21,8 @@ namespace VerzioKezelesHF
                 szamok[i] = double.Parse(Console.ReadLine());
             }
 
-            Console.WriteLine("A megadott szamok atlaga: "+szamok.Sum()/szamok.Length);
+
+            Console.WriteLine("Max: {0}\nMin: {1}",szamok.Max(),szamok.Min());
             Console.ReadKey();
         }
     }
