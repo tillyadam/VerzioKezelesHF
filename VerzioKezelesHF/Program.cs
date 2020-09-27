@@ -10,6 +10,7 @@ namespace VerzioKezelesHF
     {
         static void Main(string[] args)
         {
+            double[] szamok = new double[10];
         }
     }
 }
